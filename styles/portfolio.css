@@ -1,17 +1,112 @@
 /*font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif;*/
+:root {
+    --default-font-family: 'Poppins', sans-serif;
+    --heading-font-family: 'Playfair Display', serif;
+}
+
 
 body {
-    background-color: cyan;
-    color: white;
+    background: #C7F5FF;
+}
+
+.square {
+position: absolute;
+width: 434px;
+height: 434px;
+left: 1466px;
+top: -130px;
+border-bottom-left-radius: 100%;
+background: #A3EEFF;
+}
+
+.rectangle {
+position: absolute;
+width: 201px;
+height: 184px;
+left: 0px;
+top: 752px;
+
+background: #330000;
+border-radius: 0px 30px;
 }
 
 h1 {
-font-family: 'Playfair Display', serif;
-font-weight: bold;
+font-family: var(--heading-font-family);
+position: absolute;
+width: 358px;
+height: 241px;
+left: 260px;
+top: 210px;
+font-style: italic;
+font-weight: normal;
+font-size: 60px;
+line-height: 90px;
+text-decoration: underline;
+
+color: #0D0D0D;
 }
 
-p { 
-    font-family: 'Poppins', sans-serif; 
-    font-weight: normal;
+h2 {
+font-family: var(--default-font-family);
+position: absolute;
+width: 362px;
+height: 233px;
+left: 263px;
+top: 405px;
+
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+
+color: #00331E;
+}
+
+.hero {
+position: absolute;
+width: 1008px;
+height: 630px;
+left: 630px;
+top: 111px;
+background: #A3EEFF;
+box-shadow: -12px -3px 30px rgba(0, 0, 0, 0.25);
+border-radius: 15px;
+padding: 160px 0;
+}
+
+.hero p{
+font-family: var(--default-font-family);
+position: absolute;
+width: 227px;
+height: 42px;
+left: 263px;
+top: 180px;
+
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 50px;
+
+color: #00331E;
+}
+
+.btn-primary {
+    background-color: #0D0D0D;
+    color: #C7F5FF;
+    border-color: #0D0D0D;
+    position: absolute;
+    left: 263px;
+    top: 475px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 12px 20px;
+}
+
+.btn-primary:hover {
+    background: #47DEFF;
+    border-color: #47DEFF;
+    color: #0D0D0D;
+    font-style: normal;
+    font-weight: 500;
 }
