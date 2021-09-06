@@ -12,6 +12,10 @@ body {
   background-color: var(--secondary-color);
 }
 
+.nav {
+  background-color: var(--secondary-color);
+}
+
 h1,
 h2,
 h3,
